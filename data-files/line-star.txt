@@ -1,0 +1,25 @@
+{
+  "y_legend":{
+    "text":   "Time of day",
+    "style": "{color: #736AFF;}"
+  },
+
+  "elements":[
+    {
+      "type":      "line_hollow",
+      "colour":    "#736AFF",
+      "text":      "Avg. wave height (cm)",
+      "font-size": 10,
+      "width":     1,
+      "dot-size":  12,
+      "halo-size": 2,
+      "values" :   [10,12,10,13]
+    }
+  ],
+
+
+  "y_axis":{
+    "max":   15
+  }
+
+}

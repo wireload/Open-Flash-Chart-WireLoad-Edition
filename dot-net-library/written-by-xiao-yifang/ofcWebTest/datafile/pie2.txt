@@ -1,0 +1,98 @@
+{
+	"title": 
+		{
+			"text": "Pie Chart",
+			"style": "{font-size: 20px; color:#0000ff; font-family: Verdana; text-align: center;}"
+		},
+	"x_axis": 
+		{
+			"offset": false,
+			"labels": 
+				{
+					"steps": 1
+				},
+			"steps": 1
+		},
+	"y_axis": 
+		{
+			"tick-length": 0,
+			"offset": 0,
+			"steps": 1,
+			"min": 0,
+			"max": 0
+		},
+	"elements": 
+		[
+			{
+				"colours": 
+					[
+						"#04f",
+						"#1ff",
+						"#6ef",
+						"#f30"
+					],
+				"border": 2,
+				"alpha": 0.6,
+				"animate": true,
+				"start-angle": 0,
+				"values": 
+					[
+						{
+							"value": 0.9162280023639221,
+							"text": "Pie0"
+						},
+						{
+							"value": 0.3054618306017769,
+							"text": "Pie1"
+						},
+						{
+							"value": 0.60996817360164979,
+							"text": "Pie2"
+						},
+						{
+							"value": 0.53024911672354169,
+							"text": "Pie3"
+						},
+						{
+							"value": 0.27236199112253356,
+							"text": "Pie4"
+						},
+						{
+							"value": 0.72008040301505494,
+							"text": "Pie5"
+						},
+						{
+							"value": 0.56587877197464875,
+							"text": "Pie6"
+						},
+						{
+							"value": 0.23149409388727232,
+							"text": "Pie7"
+						},
+						{
+							"value": 0.99515720316914713,
+							"text": "Pie8"
+						},
+						{
+							"value": 0.31330248588384246,
+							"text": "Pie9"
+						},
+						{
+							"value": 0.069943276732202284,
+							"text": "Pie10"
+						},
+						{
+							"value": 0.35722377121319238,
+							"text": "Pie11"
+						},
+						{
+							"value": 0.2
+							
+						}
+					],
+				"font-size": 0,
+				"fillalpha": 0.35,
+				"type": "pie"
+			}
+		]
+}

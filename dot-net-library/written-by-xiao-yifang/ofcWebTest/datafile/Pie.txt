@@ -1,0 +1,1 @@
+{"title":{"text":"Pie","style":"{font-size: 20px; color:#0000ff; font-family: Verdana; text-align: center;}"},"elements":[{"border":2,"alpha":0.6,"animate":false,"start-angle":0,"values":[2,3],"font-size":0,"fillalpha":0.35,"type":"pie"}],"x_legend":{"text":"x-axis legend","style":"{font-size: 20px; color:#0000ff; font-family: Verdana; text-align: center;}"}}

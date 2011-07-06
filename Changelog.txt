@@ -1,0 +1,42 @@
+This file documents changes made by WireLoad since the original branch of OFC V2 Hyperion.
+
+------------------------------------------------------------------------
+
+OFC WireLoad Edition 0.2 (2009-04-02)
+
+Changes:
+ * Added a progress indicator for when charts are loading. The spinner was implemented to be as lightweight as possible and to load before anything else so that it can show while both the SWF and the graph data are loading. 
+ * Additional size reduction. Pie charts can now be fully disabled.
+ * Removed the word "test" from data loading error message.
+ * Enabled CSS styling for the axis labels.
+ * Added support for 0-90 degree rotated x axis labels without the use of font embedding.
+ * Added support for rotated y axis labels without the use of font embedding.
+ * Made external interfacing a compile time option.
+ * Reduced some redundant code by making many labels use AxisLabel as a common base class.
+ * Wrote a build script, build.py, which builds OFC WL edition with command line parameters for the various conditional compile options. The script allows a lightweight purpose built OFC binary.
+
+Minor Changes:
+ * Added a convenience function for trace logging in Global.
+ * Stripped down charts components to reduce download size.
+
+Bug Fixes:
+ * Eliminated some OFC drawing fragments caused by an attempt to draw an extremely short glass bar. Bars no taller than 2 pixels no longer render at all now.
+ * Fixed: sometimes the rightmost label would be cut off in the folder sizes graphs. Extra margin is now automatically added when the rightmost label is wide.
+ * Fixed: an extra x axis grid line was drawn for some step sizes.
+ * In a strange Flash bug, the tool tips left ghost traces unless the X axis was drawn using lineTo instead of fillRect. Very mysterious.
+
+------------------------------------------------------------------------
+
+OFC WireLoad Editon 0.1 (2009-02-26)
+
+Changes:
+ * Added support for a Legends table for Pie charts.
+ * Visual updates on the area hollow graph: axises, background grid, background gradient support, border.
+ * Added a pie chart drop shadow.
+ * Wrapped almost all functionality in conditional compile statements.
+
+Minor changes:
+ * Enabled logging to Firebug console when the debug compile time option is specified. This was implemented in Global.
+
+Bug Fixes:
+ * Rewrote grid code to eliminate fuzziness in the lines. This was accomplished by switching from drawRect to lineTo.
