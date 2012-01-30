@@ -1,8 +1,5 @@
-Hello.
+This is a fork of Open Flash Chart (http://teethgrinder.co.uk/open-flash-chart/). 
 
-This is the Open Flash Chart source code.
-
-Take a look around :-)
-
-The test data is in the 'data-files' directory.
-
+We forked and modified parts of it for YippieMove (http://www.yippiemove.com),
+but as we are no longer using this library anymore, we have stopped
+maintaining it.
